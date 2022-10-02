@@ -42,5 +42,23 @@
     <ClCompile Include="05_5-6_키보드 콜백.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="05_5-7_마우스 콜백.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="05_5-8_메뉴 콜백.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="05_5-8_메뉴 콜백(서브메뉴).cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="05_5-10_아이들 콜백.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="05_5-11_타이머 콜백.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="05_5-11_타이머 콜백(응용).cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
