@@ -1,4 +1,4 @@
-//4°³ÀÇ Á¡ ³ªÅ¸³»±â.
+//4ê°œì˜ ì  ë‚˜íƒ€ë‚´ê¸°.
 #include <GL/glut.h>
 
 void mydisplay() {
@@ -12,7 +12,7 @@ void mydisplay() {
 	glVertex2f(0.5, 0.5);
 	glVertex2f(-0.5, 0.5);
 	glEnd();
-	glFlush(); //»Ñ·ÁÁÖÁö ¾ÊÀ¸¸é È­¸é¿¡ ³ªÅ¸³ªÁö ¾Ê´Â´Ù.
+	glFlush(); //ë¿Œë ¤ì£¼ì§€ ì•Šìœ¼ë©´ í™”ë©´ì— ë‚˜íƒ€ë‚˜ì§€ ì•ŠëŠ”ë‹¤.
 }
 
 int main(int argc, char** argv) {
