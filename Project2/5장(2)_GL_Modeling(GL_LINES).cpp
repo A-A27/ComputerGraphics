@@ -1,4 +1,4 @@
-//2°³ÀÇ ¶óÀÎ ³ªÅ¸³»±â.
+//2ê°œì˜ ë¼ì¸ ë‚˜íƒ€ë‚´ê¸°.
 #include <GL/glut.h>
 
 void mydisplay() {
@@ -7,16 +7,16 @@ void mydisplay() {
 	glLineWidth(5.0); //set line width
 
 	glBegin(GL_LINES);
-	/*glVertex2f(-0.5, -0.5); ¶óÀÎÀ» °¡·Î·Î ±×¸°´Ù.
+	/*glVertex2f(-0.5, -0.5); ë¼ì¸ì„ ê°€ë¡œë¡œ ê·¸ë¦°ë‹¤.
 	glVertex2f(0.5, -0.5);
 	glVertex2f(0.5, 0.5);
 	glVertex2f(-0.5, 0.5);*/
-	glVertex2f(-0.5, -0.5); // ¶óÀÎÀ» ´ë°¢¼±(¿¢½ºÀÚ)À¸·Î ±×¸°´Ù.
+	glVertex2f(-0.5, -0.5); // ë¼ì¸ì„ ëŒ€ê°ì„ (ì—‘ìŠ¤ì)ìœ¼ë¡œ ê·¸ë¦°ë‹¤.
 	glVertex2f(0.5, 0.5);
 	glVertex2f(0.5, -0.5);
 	glVertex2f(-0.5, 0.5);
 	glEnd();
-	glFlush(); //»Ñ·ÁÁÖÁö ¾ÊÀ¸¸é È­¸é¿¡ ³ªÅ¸³ªÁö ¾Ê´Â´Ù.
+	glFlush(); //ë¿Œë ¤ì£¼ì§€ ì•Šìœ¼ë©´ í™”ë©´ì— ë‚˜íƒ€ë‚˜ì§€ ì•ŠëŠ”ë‹¤.
 }
 
 int main(int argc, char** argv) {
